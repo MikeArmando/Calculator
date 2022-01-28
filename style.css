@@ -15,3 +15,8 @@ section {
     height: 40rem;
     width: 30rem;
 }
+
+.cal-screen {
+    border: 2px solid;
+    height: 20%;
+}
