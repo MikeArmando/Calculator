@@ -10,13 +10,27 @@ section {
 }
 
 .cal-body {
+    display: flex;
+    flex-direction: column;
     border: 2px solid;
     margin-top: 5rem;
     height: 40rem;
-    width: 30rem;
+    width: 27rem;
 }
 
 .cal-screen {
     border: 2px solid;
-    height: 20%;
+    height: 25%;
+}
+
+.cal-pad {
+    display: grid;
+    grid-template: auto auto auto / auto auto auto;
+    border: 2px solid;
+    height: 100%;
+}
+
+.test {
+    border: 2px solid rgb(255, 153, 153);
+    height: 50%;
 }
