@@ -13,20 +13,31 @@ section {
     background-color: rgb(109, 109, 109);
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
-    height: 40rem;
-    width: 27rem;
+    margin-top: 7rem;
+    height: 34rem;
+    width: 21rem;
 }
 
 .cal-screen {
     height: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.cal-screen div {}
+
+.cal-screen div h1 {
+    font-size: 3rem;
+    color: white;
+    margin: 1rem;
 }
 
 .cal-pad {
     display: grid;
     grid-template: auto auto auto auto / auto auto auto auto;
-    grid-gap: .5rem;
-    padding: .8rem;
+    grid-gap: .3rem;
+    padding: .6rem;
 }
 
 .pad-btn {
@@ -40,6 +51,14 @@ section {
 }
 
 .pad-btn h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 100;
+}
+
+.pad-colorG {
+    background-color: rgb(54, 54, 54);
+}
+
+.pad-colorB {
+    background-color: rgba(28, 50, 146, 0.719);
 }
