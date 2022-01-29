@@ -13,28 +13,25 @@ section {
     background-color: rgb(109, 109, 109);
     display: flex;
     flex-direction: column;
-    border: 2px solid;
     margin-top: 5rem;
     height: 40rem;
     width: 27rem;
 }
 
 .cal-screen {
-    border: 2px solid;
-    height: 25%;
+    height: 30%;
 }
 
 .cal-pad {
     display: grid;
     grid-template: auto auto auto auto / auto auto auto auto;
-    border: 2px solid;
     height: 100%;
     grid-gap: .5rem;
-    padding: .3rem;
+    padding: .8rem;
 }
 
 .pad-btn {
-    border: 2px solid rgb(255, 153, 153);
+    background-color: black;
     color: white;
     height: 100%;
     display: flex;
