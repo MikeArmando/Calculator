@@ -13,8 +13,8 @@ section {
     background-color: rgba(37, 37, 37, 0.74);
     display: flex;
     flex-direction: column;
-    margin-top: 7rem;
-    height: 34rem;
+    margin-top: 9rem;
+    height: 32rem;
     width: 21rem;
 }
 
@@ -55,7 +55,7 @@ section {
 }
 
 .pad-btn h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 100;
 }
 
