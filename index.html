@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image" href="Circle-icons-calculator.svg.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -23,12 +24,12 @@
             </div>
             <div class="cal-pad">
 
-                <div class="pad-btn pad-colorG">
+                <div class="pad-btn pad-colorG" id="all-clear">
                     <h1>AC</h1>
                 </div>
 
                 <div class="pad-btn pad-colorG">
-                    <h1>x²</h1>
+                    <h1>DEL</h1>
                 </div>
 
                 <div class="pad-btn pad-colorG">
@@ -39,15 +40,15 @@
                     <h1>÷</h1>
                 </div>
 
-                <div class="pad-btn">
+                <div class="pad-btn" id="num">
                     <h1>1</h1>
                 </div>
 
-                <div class="pad-btn">
+                <div class="pad-btn" id="num">
                     <h1>2</h1>
                 </div>
 
-                <div class="pad-btn">
+                <div class="pad-btn" id="num">
                     <h1>3</h1>
                 </div>
 
@@ -55,15 +56,15 @@
                     <h1>x</h1>
                 </div>
 
-                <div class="pad-btn">
+                <div class="pad-btn" id="num">
                     <h1>4</h1>
                 </div>
 
-                <div class="pad-btn">
-                    <h1>5</h1>
+                <div class="pad-btn" id="num">
+                    <h1 id="num">5</h1>
                 </div>
 
-                <div class="pad-btn">
+                <div class="pad-btn" id="num">
                     <h1>6</h1>
                 </div>
 
@@ -71,15 +72,15 @@
                     <h1>−</h1>
                 </div>
 
-                <div class="pad-btn">
+                <div class="pad-btn" id="num">
                     <h1>7</h1>
                 </div>
 
-                <div class="pad-btn">
+                <div class="pad-btn" id="num">
                     <h1>8</h1>
                 </div>
 
-                <div class="pad-btn">
+                <div class="pad-btn" id="num">
                     <h1>9</h1>
                 </div>
 
@@ -91,7 +92,7 @@
                     <h1>+/−</h1>
                 </div>
 
-                <div class="pad-btn">
+                <div class="pad-btn" id="num">
                     <h1>0</h1>
                 </div>
 
@@ -99,13 +100,16 @@
                     <h1>.</h1>
                 </div>
 
-                <div class="pad-btn pad-colorB">
+                <div class="pad-btn pad-colorB" id="equals">
                     <h1>=</h1>
                 </div>
 
             </div>
         </div>
     </section>
+
+    <script src="app.js"></script>
+
 </body>
 
 </html>

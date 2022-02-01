@@ -14,7 +14,7 @@ section {
     display: flex;
     flex-direction: column;
     margin-top: 9rem;
-    height: 32rem;
+    height: 34rem;
     width: 21rem;
 }
 
@@ -33,9 +33,10 @@ section {
 
 .cal-pad {
     display: grid;
-    grid-template: auto auto auto auto / auto auto auto auto;
-    grid-gap: .3rem;
-    padding: .8rem .4rem;
+    grid-template: auto auto auto auto / 1fr 1fr 1fr 1fr;
+    grid-gap: .2rem;
+    padding: .5rem .4rem;
+    height: 70%;
 }
 
 .pad-btn {
