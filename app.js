@@ -8,3 +8,7 @@ const plus = document.getElementById('plus')
 allClear.addEventListener('click', function () {
     screenNum.innerText = ''
 })
+
+equals.addEventListener('click', function () {
+    screenNum.innerText = ''
+})
