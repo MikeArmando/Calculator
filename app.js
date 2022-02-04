@@ -4,11 +4,9 @@ const del = document.getElementById('del')
 const equals = document.getElementById('equals') 
 const plus = document.getElementById('plus')
 
+const num = document.getElementsByClassName('num')
+
 
 allClear.addEventListener('click', function () {
-    screenNum.innerText = ''
-})
-
-equals.addEventListener('click', function () {
     screenNum.innerText = ''
 })
