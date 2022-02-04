@@ -10,7 +10,7 @@ section {
 }
 
 .cal-body {
-    background-color: rgba(37, 37, 37, 0.884);
+    background-color: rgba(37, 37, 37, 0.836);
     display: flex;
     flex-direction: column;
     margin-top: 9rem;
