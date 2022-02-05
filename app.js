@@ -1,10 +1,5 @@
-const screenNum = document.getElementById('screen-num')
-const allClear = document.getElementById('all-clear')
-const del = document.getElementById('del')
-const equals = document.getElementById('equals') 
-const plus = document.getElementById('plus')
+const numberBtn = document.querySelectorAll('[data-number]')
+const operationBtn = document.querySelectorAll('[data-operation]')
+const allClear = document.querySelectorAll('[data-equals]')
 
 
-allClear.addEventListener('click', function () {
-    screenNum.innerText = ''
-})
