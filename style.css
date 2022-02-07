@@ -48,7 +48,7 @@ section {
     grid-template: auto auto auto auto / 1fr 1fr 1fr 1fr;
     grid-gap: .2rem;
     padding: .5rem .4rem;
-    height: 75%;
+    height: 72%;
 }
 
 .pad-btn {

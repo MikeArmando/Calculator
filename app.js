@@ -10,5 +10,8 @@ const opBtn = document.querySelectorAll('[data-operation]')
 
 
 
-
+allClear.addEventListener('click', function () {
+    previousScreen.innerHTML = ''
+    currentScreen.innerHTML = ''
+})
 
