@@ -9,7 +9,6 @@ const del = document.querySelector('[data-del]')
 const opBtn = document.querySelectorAll('[data-operation]')
 
 
-
 allClear.addEventListener('click', function () {
     previousScreen.innerHTML = ''
     currentScreen.innerHTML = ''
