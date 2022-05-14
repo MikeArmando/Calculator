@@ -6,7 +6,7 @@ const operationBtn = document.querySelectorAll('[data-operation]')
 const equals = document.querySelector('[data-equals]')
 const allClear = document.querySelector('[data-all-clear]')
 const del = document.querySelector('[data-del]')
-
+const calculator = new Calculator(previousScreen, currentScreen)
 
 allClear.addEventListener('click', function () {
     previousScreen.innerHTML = ''
@@ -18,25 +18,34 @@ class Calculator {
         this.previousScreen = previousScreen
         this.currentScreen = currentScreen
         this.clear()
+    }
+
+    clear() {
+        this.currentScreen = ''
+        this.previousScreen = ''
+        this.operation = undefined
+    }
+
+    delete() {
+    }
+
+    appendNumber(number) {
+    }
+
+    chooseOperation(operation) {
+    }
+
+    compute() {
+    }
+
+    updateDisplay() {
+    }
+
 }
 
-clear() {
-    this.currentScreen = ''
-    this.previousScreen = ''
-    this.operation = undefined
-}
-
-delete() {
-}
-
-appendNumber(number) {
-}
-
-chooseOperation(operation) {
-}
-
-compute() {
-}
-
-updateDisplay() {
-}
+numberBtn.forEach(button => {
+    button.addEventListener('click', () => {
+        calculator.appendNumber(button.innerText)
+        calculator.updateDisplay()
+    })
+})
