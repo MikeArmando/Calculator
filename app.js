@@ -6,6 +6,7 @@ const operationBtn = document.querySelectorAll('[data-operation]')
 const equals = document.querySelector('[data-equals]')
 const allClear = document.querySelector('[data-all-clear]')
 const del = document.querySelector('[data-del]')
+
 const calculator = new Calculator(previousScreen, currentScreen)
 
 allClear.addEventListener('click', function () {
@@ -40,7 +41,6 @@ class Calculator {
 
     updateDisplay() {
     }
-
 }
 
 numberBtn.forEach(button => {
