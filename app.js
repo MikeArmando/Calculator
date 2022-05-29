@@ -81,8 +81,8 @@ equalsButton.addEventListener('click', button => {
 
 compute() {
     let computation
-    const prev = parseFloat(this.previousOperand)
-    const current = parseFloat(this.currentOperand)
+    const prev = parseFloat(this.previousScreen)
+    const current = parseFloat(this.currentScreen)
     if (isNaN(prev) || isNaN(current)) return
     switch (this.operation) {
       case '+':
@@ -100,7 +100,12 @@ compute() {
       default:
         return
     }
-    this.currentOperand = computation
+    this.currentScreen = computation
     this.operation = undefined
-    this.previousOperand = ''
-  }
+    this.previousScreen = ''
+}
+
+allClearButton.addEventListener('click', button => {
+    calculator.clear()
+    calculator.updateDisplay()
+})
