@@ -49,3 +49,8 @@ numberBtn.forEach(button => {
         calculator.updateDisplay()
     })
 })
+
+appendNumber(number) {
+    if (number === '.' && this.currentOperand.includes('.')) return
+    this.currentOperand = this.currentOperand.toString() + number.toString()
+  }
