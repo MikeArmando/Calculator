@@ -1,5 +1,4 @@
-const previousScreen = document.querySelector('[data-previous-screen]')
-const currentScreen = document.querySelector('[data-current-screen]')
+
 
 const numberBtn = document.querySelectorAll('[data-number]')
 const operationBtn = document.querySelectorAll('[data-operation]')
@@ -61,3 +60,16 @@ operationBtn.forEach(button => {
       calculator.updateDisplay()
     })
 })
+
+chooseOperation(operation) {
+    if (this.currentScreen === '') return
+    if (this.previousScreen !== '') {
+      this.compute()
+    }
+    this.operation = operation
+    this.previousScreen = this.currentScreen
+    this.currentScreen = ''
+}
+
+const previousScreen = document.querySelector('[data-previous-screen]')
+const currentScreen = document.querySelector('[data-current-screen]')
