@@ -45,11 +45,24 @@ section {
 
 .cal-pad {
     display: grid;
-    grid-template: auto auto auto auto / 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "c c a m"
+    "n n n x"
+    "n n n x"
+    "n n n x";
     grid-gap: .2rem;
     padding: .5rem .4rem;
     height: 72%;
 }
+
+.dbtn {
+    grid-area: a;
+}
+
+.abtn {
+    grid-area: c;
+}
+
 
 .pad-btn {
     background-color: black;
