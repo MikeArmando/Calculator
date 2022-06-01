@@ -48,10 +48,11 @@ section {
     display: grid;
     background-color: rgb(46, 51, 58);
     grid-template-areas: 
-    "c c a m"
+    "c c a x"
     "n n n x"
     "n n n x"
-    "n n n x";
+    "n n n x"
+    "s s l l";
     grid-gap: .1rem;
     padding: .5rem .4rem;
     height: 80%;
@@ -63,6 +64,10 @@ section {
 
 .abtn {
     grid-area: c;
+}
+
+.EBtn {
+    grid-area: l;
 }
 
 .pad-btn {
@@ -79,7 +84,7 @@ section {
 }
 
 .pad-btn:hover {
-    background-color: rgb(95, 95, 95);
+    background-color: rgb(55, 60, 66);
 }
 
 .pad-btn h1 {
@@ -88,14 +93,14 @@ section {
 }
 
 .pad-colorD {
-    color: rgb(118, 226, 118);
+    color: rgb(118, 226, 158);
 }
 
 .pad-colorG {
-    color: rgb(239, 68, 68);
+    color: rgb(239, 91, 68);
 }
 
 .pad-colorB {
-    color: rgb(55, 88, 255);
+    color: rgb(55, 148, 255);
 
 }
