@@ -16,6 +16,7 @@ section {
     margin-top: 9rem;
     height: 33rem;
     width: 20rem;
+    border-radius: 2rem;
 }
 
 .cal-screen {
@@ -50,9 +51,9 @@ section {
     "n n n x"
     "n n n x"
     "n n n x";
-    grid-gap: .2rem;
+    grid-gap: .1rem;
     padding: .5rem .4rem;
-    height: 72%;
+    height: 100%;
 }
 
 .dbtn {
@@ -62,7 +63,6 @@ section {
 .abtn {
     grid-area: c;
 }
-
 
 .pad-btn {
     background-color: black;
@@ -74,6 +74,7 @@ section {
     align-items: center;
     cursor: pointer;
     transition: all ease .1s;
+    border-radius: 2rem;
 }
 
 .pad-btn:hover {
@@ -85,14 +86,15 @@ section {
     font-weight: 100;
 }
 
+.pad-colorD {
+    color: rgb(105, 254, 105);
+}
+
 .pad-colorG {
-    background-color: rgb(54, 54, 54);
+    color: rgb(239, 68, 68);
 }
 
 .pad-colorB {
-    background-color: rgb(54, 88, 128);
-}
+    color: rgb(55, 88, 255);
 
-.pad-colorB:hover {
-    background-color: rgb(72, 122, 180);
 }
